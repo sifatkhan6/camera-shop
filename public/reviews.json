@@ -1,0 +1,44 @@
+[
+    {
+      "id": "624aced01f112ad9bc0133f7",
+      "picture": "http://placehold.it/32x32",
+      "rating": 3,
+      "name": "Gamble Robles",
+      "review": "Quality is not that good"
+    },
+    {
+      "id": "624aced0b191687924963e6a",
+      "picture": "http://placehold.it/32x32",
+      "rating": 4.5,
+      "name": "Cleo Delgado",
+      "review": "Quality is good. Recommending"
+    },
+    {
+      "id": "624aced0dd85ff612bdad85e",
+      "picture": "http://placehold.it/32x32",
+      "rating": 4,
+      "name": "Young Williamson",
+      "review": "Quality is acceptable"
+    },
+    {
+      "id": "624aced022ada35c14ea493f",
+      "picture": "http://placehold.it/32x32",
+      "rating": 5,
+      "name": "Stark Brock",
+      "review": "Super good quality. Highly recommending"
+    },
+    {
+      "id": "624aced035caf0ff0f2c8f72",
+      "picture": "http://placehold.it/32x32",
+      "rating": 3.5,
+      "name": "Angelina Maxwell",
+      "review": "Its not the same quality, I was expecting"
+    },
+    {
+      "id": "624aced0da1eb4d6338f664b",
+      "picture": "http://placehold.it/32x32",
+      "rating": 2,
+      "name": "Bowen Holt",
+      "review": "Bad quality"
+    }
+  ]

@@ -2,14 +2,15 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import Home from './components/Home/Home';
-import Review from './components/Review/Review';
 import Blog from './components/Blog/Blog'
 import NotFound from './components/NotFound/NotFound';
+import Header from './components/Header/Header';
+import Review from './components/Review/Review'
 
 function App() {
   return (
     <div className="App">
-      <h1>this is assignment 5</h1>
+      <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>

@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(88, 105, 255);
+}
+
+.header h2{
+    margin-left: 5%;
+}
+
+.headerLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+}
