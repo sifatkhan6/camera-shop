@@ -7,5 +7,7 @@ https://astonishing-khapse-f2195a.netlify.app
 https://github.com/programming-hero-web-course-4/product-analysis-website-sifatkhan6
 
 ## What I have in this project
--install react app
--
+- install react app
+- using react router
+- fullfil all the requirements
+- project done 
