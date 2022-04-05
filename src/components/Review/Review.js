@@ -7,8 +7,8 @@ const Review = ({reviewdetail}) => {
 
     return (
         <div className='review'>
-            <h3>{name}</h3>
-            <p>{dsc}</p>
+            <h4>Name: {name}</h4>
+            <p>Review: {dsc}</p>
             <p>Rating: {rating}</p>
         </div>
     );

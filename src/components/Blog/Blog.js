@@ -3,7 +3,7 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div className='footer'>
+        <div className='blog'>
             <section>
                 <h4>Que: What is semantic tag?</h4>
                 <p>Ans: Semantic HTML tags provide information about the contents of those tags that goes beyond just how they look on a page. Text that is enclosed in the code tag is immediately recognized by the browser as some type of coding language. Semantic tags also gives many more hooks for styling content</p>

@@ -3,6 +3,8 @@ import './Home.css'
 import Image from '../../images/image3.jpg'
 import useReviews from '../../hooks/useReviews';
 import Blog from '../Blog/Blog';
+import Review from '../Review/Review';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -19,6 +21,20 @@ const Home = () => {
                 <img src={Image} alt="" />
                 </div>
             </section>
+
+            <section className='reviewPart'>
+                {
+                    reviewDetails.slice(0, 3).map(reviewdetail => (
+                        <Review 
+                            key={reviewdetail.id} 
+                            reviewdetail={reviewdetail}>
+                        </Review>
+                    ))
+                }
+            </section>
+            <div>
+                <Link to={"/reviews"}><button className='btn'>See More</button></Link>
+            </div>
             <Blog></Blog>
         </div>
     );

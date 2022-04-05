@@ -1,5 +1,5 @@
 .home{
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -19,4 +19,25 @@
     width: 90%;
     border-radius: 50%;
     padding-left: 5%;
+}
+
+.reviewPart{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5%;
+}
+
+.btn{
+    margin-top: 3%;
+    cursor: pointer;
+    padding: 10px 50px;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(111, 111, 255);
+    border: 1px solid rgb(111, 111, 255);
+    border-radius: 5px;
 }
