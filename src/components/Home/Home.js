@@ -1,8 +1,13 @@
 import React from 'react';
 import './Home.css'
 import Image from '../../images/image3.jpg'
+import useReviews from '../../hooks/useReviews';
+import Blog from '../Blog/Blog';
 
 const Home = () => {
+
+    const [reviewDetails, setreviewDetails] = useReviews();
+
     return (
         <div className='home'>
             <section className='homeSection'>
@@ -14,6 +19,7 @@ const Home = () => {
                 <img src={Image} alt="" />
                 </div>
             </section>
+            <Blog></Blog>
         </div>
     );
 };

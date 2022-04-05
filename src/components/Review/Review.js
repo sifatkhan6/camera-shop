@@ -1,17 +1,15 @@
 import React from 'react';
-import Reviews from '../../hooks/Reviews';
+import './Review.css'
 
-const Review = () => {
+const Review = ({reviewdetail}) => {
 
-    const [reviews, setReviews] = Reviews();
-    const [id, name, review, rating, picture] = reviews;
-
-    console.log(name);
+    const {id, name, picture, dsc, rating} = reviewdetail;
 
     return (
-        <div>
-            <h2>this is review: {reviews.length}</h2>
-            <p>this is name: </p>
+        <div className='review'>
+            <h3>{name}</h3>
+            <p>{dsc}</p>
+            <p>Rating: {rating}</p>
         </div>
     );
 };
