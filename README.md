@@ -7,4 +7,4 @@ https://astonishing-khapse-f2195a.netlify.app
 - install react app
 - using react router
 - fullfil all the requirements
-- project done 
+- project done
